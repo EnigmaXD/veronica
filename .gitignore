@@ -11,6 +11,8 @@ target/
 .settings/
 .project
 .classpath
+.metadata/
+RemoteSystemsTempFiles/
 
 # idea ignore
 .idea/
