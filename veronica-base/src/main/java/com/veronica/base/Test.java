@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class Test {
     public Boolean a = true;
+    public int b = 2;
 
     public Boolean getA() {
         return a;
