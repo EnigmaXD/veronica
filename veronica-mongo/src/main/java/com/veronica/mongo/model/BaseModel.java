@@ -3,7 +3,7 @@ package com.veronica.mongo.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Field;
 
-public class BaseModel {
+public abstract class BaseModel {
 
     @Id
     private String id;

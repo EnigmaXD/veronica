@@ -2,10 +2,12 @@ package com.veronica.mongo.dao;
 
 import com.veronica.mongo.model.BaseModel;
 
-public interface BaseDao {
+public interface BaseDao<T extends BaseModel> {
 
-    public <T extends BaseModel> void insert(T pojo);
+    public void insert(T pojo);
 
-    // public void save(BaseModel obj);
+    public void update(T pojo);
+
+    public T findById(String id);
 
 }

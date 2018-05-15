@@ -31,6 +31,8 @@
 			<artifactId>spring-data-commons</artifactId>
 			<version>1.13.9.RELEASE</version>
 		</dependency>
+		
+		<!-- mongo -->
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-mongodb</artifactId>
