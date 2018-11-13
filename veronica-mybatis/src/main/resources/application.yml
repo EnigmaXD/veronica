@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://shishang.oudot.cn:3306/shishang?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true
+    username: root
+    password: 1q2w3e4r
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    

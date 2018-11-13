@@ -1,5 +1,7 @@
 # maven ignore
 target/
+test/
+veronica-data/
 *.jar
 !.mvn/wrapper/*
 *.war
